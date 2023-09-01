@@ -76,7 +76,7 @@ def sin(x):
   result = (1 - cos(x)**2)**(1/2)
   return result
 
-
+""""""
 """ tan (degree)"""
 # use tan=sin/cos
 def tan(x):
