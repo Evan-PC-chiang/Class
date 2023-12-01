@@ -8,6 +8,10 @@ We define our fault into several continuous triangular patches with radious of 5
 
 To make the best use of the interactive graphs, I also use reveal.js, a presentation software based on html and java script, to make slides thats able to embeded those interactive graphs. It's easy to manage and build by html elements and CSS. It's basically a power point in browser, means it could enbed interactive graphs just like a website. It can host by Github like as a github page, so it doesn't need any extra care about the compatibility between different computer as long as it is able to access the internet. It could export as a pdf file as well. 
 
+
+
+https://github.com/Evan-PC-chiang/3DPlot
+
 ## Folder Structure
 
 `Plot_maker.ipynb` is a jupyter notebook file combines 3 parts: `11Plot`, `build_figure`, `detachment_plot`,and `writeGMT`. 
@@ -27,13 +31,23 @@ Part 4: `writeGMT`. This script output GMT form files for GMT.
 ├── Codes/
 │   ├── PlotFault.py
 │   ├── figure/
-|       └── figures
+|   │   └── figures
 │   └── Plot_maker.ipynb
 |       ├── 11Plot
 │       ├── build_figure
 |       └── writeGMT
 ├── data/
 │   └── #Our Model Outputs
+├── pyGMT/
+│   ├── GMT.ipynb # code for plotting
+│   ├── cpt/
+│   │   └── color scheme for GMT
+│   ├── data/
+│   │   └── data for plotting
+│   ├── fig/
+│   │   └── final figure
+│   └── grd_data/
+│       └── raster data for plotting
 ├── html/
 │   └── #Plots in .html file
 └── tri/
@@ -100,5 +114,6 @@ The slip/locking on each triangular patch.
 - [x] (Oct 18) uplaod reveal.js project to Github to deploy the presentation.
 - [x] (Oct 20) find a new way (GMT) to plot detachment contribution. 
 - [x] (Oct 23) update presentation.
-- [ ] (TBD) plot boundary condition of the inversion model.
-- [ ] (TBD) make static graphs for paper.
+- [x] (Nov 20) Get pyGMT working.
+- [x] (Nov 26) make static graphs for paper.
+- [x] (Dec 01) Finishing up project, https://evan-pc-chiang.github.io/3D_Taiwan_model/
