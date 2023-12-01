@@ -1,5 +1,8 @@
 # Model Result Visualization in an Interactive, Publication-quality Graph and Deploy through Reveal.js
 
+
+https://github.com/Evan-PC-chiang/3DPlot
+
 ## Introduction
 
 As a researcher, delivering the results might be the most important thing in our life. How to visualize our result in a clear and understandable way is always a big issue in tectonic modeling. We compiled a 3-dimension fault geometry across Taiwan with 56 faults over 60K square kilometers. When plot it in a traditional way, all of the fault would just tangle togather and it's also hard to read the 3D plot in a 2D way. Here, I plot some interactive graphs for presentation purpose and plot some static graphs for paper purpose. 
